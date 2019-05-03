@@ -2,7 +2,7 @@
   "name": "@collaveinc/fastify-routes-folder",
   "version": "1.0.0",
   "description": "Opinionated folder structure for routing on Fastify.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "compile": "coffee --compile --output lib src",
     "dev": "coffee tests/index.coffee",
