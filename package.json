@@ -1,0 +1,20 @@
+{
+  "name": "@collaveinc/fastify-routes-folder",
+  "version": "1.0.0",
+  "description": "Opinionated folder structure for routing on Fastify.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "coffee --compile --output lib src",
+    "dev": "coffee tests/index.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Alegre (andrew.alegre@collave.com)",
+  "license": "ISC",
+  "dependencies": {
+    "fast-glob": "^2.2.6",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.4.1"
+  }
+}
