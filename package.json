@@ -1,6 +1,6 @@
 {
   "name": "@collaveinc/fastify-routes-folder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Opinionated folder structure for routing on Fastify.",
   "main": "lib/index.js",
   "scripts": {

@@ -3,11 +3,11 @@ fg = require 'fast-glob'
 path = require 'path'
 _ = require 'lodash'
 
-extractRoutes = ({ dir }) ->
-  files = fg.sync [path.join dir, '**/*.(js|ts|coffee)']
+extractRoutes = (opts) ->
+  files = fg.sync [path.join opts.dir, '**/*.(js|ts|coffee)']
 
   routes = for file in files
-    name = path.relative dir, file
+    name = path.relative opts.dir, file
     name = name.substring 0, name.lastIndexOf '.'
     tokens = name.split path.sep
 
